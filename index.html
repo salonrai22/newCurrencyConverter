@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <div class="container">
+        <div class="selector">
+            <input id="money" placeholder="Enter money you have" value="100">
+
+            <div class="content">
+                <div class="from">
+                    <img src="https://flagsapi.com/NP/flat/64.png">
+                    <select name="from">
+                    </select>
+                </div>
+
+                <i class="fa fa-exchange"></i>
+
+                <div class="to">
+                    <img src="https://flagsapi.com/CA/flat/64.png">
+                    <select name="to">
+                    </select>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="msg">
+            <p>1 Rs. = 0.02 CD</p>
+        </div>
+
+        <div class="generate">
+            <button id="calculate">Convert Currency</button>
+        </div>
+    </div>
+
+    <script src="code.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
